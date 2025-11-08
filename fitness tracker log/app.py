@@ -4,7 +4,8 @@ import sqlite3
 from Main import connect_db, encrypt_password, create_table
 
 app = Flask(__name__)
-app.secret_key = "dev-secret-change-me"  # change for production
+import os
+app.secret_key = os.environ.get("APP_SECRET", "dev-secret")
 
 create_table()
 
@@ -95,4 +96,5 @@ def logout():
     return redirect("/")
 
 if __name__ == "__main__":
+
     app.run(debug=True)
