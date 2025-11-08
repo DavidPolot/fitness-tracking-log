@@ -1,0 +1,1 @@
+This code was made during my freetime in between classes, this provides my knowledge of sql database knowledge, flask front end development with some html code, and python scripting as the main language.
