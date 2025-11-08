@@ -1,0 +1,7 @@
+users.db
+sqlite3.def
+sqlite3.dll
+user.db
+__pycache__/
+*.pyc
+.env
