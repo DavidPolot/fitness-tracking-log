@@ -1,6 +1,6 @@
 This project was built to demonstrate my knowledge of practical database design, normalization, query optimization, and data integrity in a real-world scenario.
 
-**Database Schema Overview**
+**Database Schema Overview:**
 The database is structured around a one-to-many relationship between users and their logged lifts.
 
 **Database structure:**
@@ -46,7 +46,7 @@ Password hashing is included within the project. This creates a unique hash for 
 - Add indexing on queried fields
 - Remove aggregates
 
-**Planned Features**
+**Planned Features:**
 - make a secure two-factor authentication
 - password reset functionality with token-based validation
 - Role-based access considerations for expansions.
